@@ -1,0 +1,15 @@
+version: "2"
+# cloud:
+#     organization: ""
+#     project: ""
+#     hostname: ""
+sql:
+- schema: "./db/migrate/"
+  queries: "./db/query/"
+  engine: "postgresql"
+  gen:
+    go: 
+      package: "db"
+      out: "./db/sqlc/"
+      emit_empty_slices: true
+      emit_interface: true
