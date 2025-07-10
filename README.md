@@ -1,16 +1,17 @@
 # Banking System
-Banking system backend in Golang with mysql
 
-makefile commands:
+Banking system backend in Golang with MySQL.
 
-postgres -> DB container creation
-createdb-> Database creation
-dropdb -> DROP database
-migrateup-> migrate schema
-migrateup1-> migration schema 1 step
-migratedown->  DB schema migration down 
-migratedown1-> DB schema down 1 step
-sqlc -> generate gocode for the sql schema and commands
+## Makefile Commands
 
-For more details refer to the makefile: https://github.com/ramandeep11/Banking-System/blob/main/Makefile 
+- `postgres` → DB container creation  
+- `createdb` → Database creation  
+- `dropdb` → DROP database  
+- `migrateup` → Migrate schema  
+- `migrateup1` → Migration schema 1 step  
+- `migratedown` → DB schema migration down  
+- `migratedown1` → DB schema down 1 step  
+- `sqlc` → Generate Go code for the SQL schema and commands  
 
+For more details, refer to the Makefile:  
+[Makefile on GitHub](https://github.com/ramandeep11/Banking-System/blob/main/Makefile)
